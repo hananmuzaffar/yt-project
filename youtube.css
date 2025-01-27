@@ -1,0 +1,25 @@
+.thumbnail {
+    width: 300px;
+    display: block;
+}
+
+.search {
+    display: block;
+}
+
+.preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 7px;
+}
+
+.title {
+    width: 300px;
+    display: inline;
+}
+
+.author {
+    border-radius: 50px;
+    width: 25px;
+}

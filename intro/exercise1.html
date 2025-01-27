@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <style>
+        body {
+            padding: 10px;
+        }
+        div {
+            /* border: solid 1px;
+            padding: 10px;
+            border-radius: 8px;
+            width: 50%;
+            display: flex;
+            object-fit: contain;
+            align-items: center;
+            justify-content: center; */
+            margin-bottom: 50px;
+
+        }
+        a {
+            color: rgb(0, 113, 133);
+            text-decoration: none;
+            transition: color 0.15s;
+        }
+        a:hover {
+            color: rgb(255, 164, 28);
+        }
+
+        .heading {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .price {
+            color: rgb(0, 118, 0);
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .delivery {
+            font-size: 17px;
+        }
+
+        .cart {
+            background-color: rgb(255, 216, 20);
+            border-style: none;
+            height: 36px;
+            width: 120px;
+            border-radius: 18px;
+            font-size: 15px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: background-color 0.30s;
+        }
+        .cart:hover {
+            background-color: rgb(233, 194, 1);
+        }
+        .cart:active {
+            opacity: 0.8;
+        }
+
+        .buy {
+            background-color: rgb(255, 164, 28);
+            border-style: none;
+            height: 36px;
+            width: 120px;
+            border-radius: 18px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .buy:hover {
+            background-color: rgb(250, 153, 8);
+        }
+        .buy:active {
+            opacity: 0.8;
+        }
+
+        .prev {
+            margin-right: 10px;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        .next {
+            margin-right: 10px;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 15px;
+        }
+
+        #page {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <a href="#">Back to Amazon.in</a>
+    <p class="heading">Nike Black Running Shoes</p>
+    <p class="price">&#8377; 1499 - in stock</p>
+    <p class="delivery">Free Delivery tomorrow</p>
+    <button class="cart">Add to cart</button>
+    <button class="buy">Buy now</button>
+    </div>
+    <div>
+        <button class="prev">Back</button>
+        <a href="" id="page">1</a>
+        <a href="" id="page">2</a>
+        <a href="" id="page">3</a>
+        <a href="" id="page">4</a>
+        <a href="" id="page">5</a>
+        <button class="next">Next</button>
+
+    </div>
+</body>
+</html>

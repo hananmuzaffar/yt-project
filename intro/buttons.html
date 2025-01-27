@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        .subscribe {
+            background-color: rgb(200, 00, 00);
+            border: none;
+            /* height: 36px;
+            width: 105px; */
+            padding: 10px 16px;
+            color: white;
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            /* transition: opacity 0.15s,
+            padding 1s, margin 1s; */
+            transition: padding 1s;
+            vertical-align: top;
+        }
+
+        .subscribe:hover {
+            /* opacity: 0.8;
+            padding: 10px 20px;
+            margin: 10px 20px; */
+            padding: 20px 32px;
+        }
+        .subscribe:active {
+            opacity: 0.5;
+            /* margin: 15px; */
+        }
+
+        .join {
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(41, 118, 211);
+            border-style: solid;
+            border-width: 1px;
+            padding: 9px 16px;
+            /* height: 36px;
+            width: 75px; */
+            color: rgb(41, 118, 211);
+            border-radius: 2px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 0.15s,
+            color 0.15s;
+            vertical-align: top;
+        }
+        
+        .join:hover {
+            background-color: rgb(41, 118, 211);
+            color: white;
+        }
+        .join:active {
+            opacity: 0.7;
+        }
+
+        .tweet {
+            background-color: rgb(41, 118, 233);
+            color: white;
+            border-style: none;
+            border-radius: 18px;
+            /* height: 36px;
+            width: 75px; */
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            transition: box-shadow 0.15s;
+            vertical-align: top;
+        }
+        .tweet:hover {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+        }
+        .tweet:active {
+            margin-top: 8px;
+            margin-left: 14px;
+            opacity: 0.7;
+        }
+
+        .stretch {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            font-size: 15px;
+            margin: 10px;
+            vertical-align: top;
+            border: none;
+            cursor: pointer;
+            transition: padding 1s, margin 1s;
+        }
+        .stretch:hover {
+            margin: 10px 0px; 
+            padding: 10px 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <button class="subscribe">SUBSCRIBE</button>
+    <button class="join"> JOIN</button>
+    <button class="tweet">Tweet</button><br>
+    <button class="stretch">ONE</button>
+    <button class="stretch">TWO</button>
+    <button class="stretch">THREE</button>
+</body>
+</html>
