@@ -9,6 +9,30 @@
     row-gap: 40px;
 }
 
+@media (max-width: 550px) {
+    .preview-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+    .preview-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .preview-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .preview-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .title {
     margin-top: 0;
     font-size: 14px;
@@ -52,5 +76,10 @@
     font-weight: 500;
     padding: 4px;
     border-radius: 2px;
+}
 
+.video-link,
+.channel-link {
+    text-decoration: none;
+    color: inherit;
 }
